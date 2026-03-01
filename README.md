@@ -34,9 +34,9 @@ Every lab folder provides a complete package for instant replication:
 
 1.  **Build:** Match your EVE-NG topology to the provided diagram.
 2.  **Paste:** * Open the `.txt` file for a device (e.g., `R1.txt`).
-    * Enter `configure terminal` in the console.
+    * On the EVE-NG console, **bypass the initial startup wizard** (type `no` and hit Enter).
     * **Paste** the configuration directly.
-3.  **Watch:** Check the included video to see the expected convergence and connectivity results.
+3.  **Test:** Check the included video to see the expected convergence and connectivity results, then verify them on your own nodes.
 
 ---
 
