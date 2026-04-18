@@ -24,16 +24,18 @@ Every lab folder provides a complete package for instant replication:
 ## 🚀 How to Use
 
 1.  **Build:** Match your EVE-NG topology to the provided diagram.
-2.  **Implementation:** * Open the baseline configuration file for a device (e.g., `R1.txt`).
-    * On the EVE-NG console, enter configuration mode (`edit`).
-    * **Audit the interface IDs:** Ensure the interfaces in the text file (e.g., `ge-0/0/0`) match the physical cabling in your EVE-NG lab.
-    * Use the configuration text as a guide to apply the logic to your nodes.
-3.  **Verification:** Check the included video for expected results, then use **Ping** and **Traceroute** to validate end-to-end reachability across the data plane.
-
+2.  **Initial Setup:** * Access the EVE-NG console for each node.
+    * Enter configuration mode (`configure terminal`).
+    * Apply the `Default_Config.txt` to establish consistent system settings and credentials.
+3.  **Implementation:** * Open the node-specific configuration file (e.g., `R1.txt`).
+    * **Audit the interface IDs:** Verify that the interfaces in the text file (e.g., `ge-0/0/0`) match your physical cabling in EVE-NG. 
+    * Use the **Node Specifc Configuration File** as a guide to apply the specific routing and switching logic to your nodes.
+4.  **Verification:** Check the included video or README to see the expected convergence results, then run the corresponding `show` commands on your own nodes to verify the state. Check that full network connectivity exists using **Ping** and **Traceroute** to validate end-to-end reachability.
+   
 ---
 
 ## 📝 Requirements
 
 * **Platform:** EVE-NG (Community or Professional).
-* **Images:** * **Routing:** vMX or vJunos-router images.
-    * **Switching:** vQFX or vJunos-EX images.
+* **Images:** * **Routing:** vIOS (router).
+    * **Switching:** vIOS (switch).
