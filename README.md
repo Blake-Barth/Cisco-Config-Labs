@@ -8,7 +8,7 @@ A collection of high-level Cisco networking labs. This repository showcases func
 
 Each folder below contains a standalone project with all necessary assets for replication. 
 
-> **Note:** A link to the virtual images are **not included** in this repository as they are proprietary and require valid licensing from the vendor.
+> **Note:** A link to the virtual images is **not included** in this repository as they are proprietary and require valid licensing from the vendor.
 
 ---
 
