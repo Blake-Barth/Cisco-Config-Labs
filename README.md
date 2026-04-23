@@ -1,6 +1,6 @@
-# Config-Config-Labs (EVE-NG)
+# Cisco-Config-Labs (EVE-NG)
 
-A collection of high-level Cisco networking labs. This repository showcases functional configurations and topologies for **ENCOR**, **ENARSI**, and complex **Enterprise** projects, all built and validated in **EVE-NG**.
+A collection of high-level Cisco networking labs. This repository showcases functional configurations and topologies for **SPCOR**, **SPVI**, and complex **Service Provider** projects, all built and validated in **EVE-NG**.
 
 ---
 
