@@ -1,0 +1,34 @@
+#Ensure device is in configuration mode
+configure terminal
+
+#Configure Hostname
+Hostname R4
+
+#Set ISIS level and Net address
+router isis 1
+net 49.0003.1921.6800.3004.00
+is-type level-1-2
+
+#Set interface configuration
+int Loopback0 
+ip address 192.168.3.4 255.255.255.255
+ip router isis 1
+no shut
+
+int gi0/0
+ip address 10.10.13.2 255.255.255.252
+ip router isis 1
+no shut
+
+int gi0/1
+ip address 10.10.3.1 255.255.255.252
+ip router isis 1
+no shut
+
+int gi0/2
+ip address 10.10.3.5 255.255.255.252
+ip router isis 1
+no shut
+
+#Returning to Enable mode
+end
