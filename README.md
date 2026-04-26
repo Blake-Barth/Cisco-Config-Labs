@@ -1,8 +1,6 @@
 # Cisco-Config-Labs (EVE-NG)
 
-=======
 A collection of high-level Cisco networking labs. This repository showcases functional configurations and topologies for **SPCOR** and **SPVI**, all built and validated in **EVE-NG**.
->>>>>>> 43645d9 (Moved IS-IS to IS-IS-Intro and Updated Readme)
 
 ---
 
